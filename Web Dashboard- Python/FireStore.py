@@ -5,7 +5,7 @@ import random
 import time
 
 # Use a service account
-cred = credentials.Certificate('C:/Users/xing_/PycharmProjects/fair-myth-274206-firebase-adminsdk-pqzrm-6cc9be4ab5.json')
+cred = credentials.Certificate('Path to Json Key')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
