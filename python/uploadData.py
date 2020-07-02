@@ -5,7 +5,7 @@ import random
 import time
 
 # Use a service account
-cred = credentials.Certificate('./firebase.json')
+cred = credentials.Certificate('./firebase_admin.json')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
